@@ -2,6 +2,7 @@
 
 # C:\Users\Hello\Desktop\Drowsiness-Detection-master\Drowsiness-Detection-master\app1.py: 1
 Flask == 1.1.2
+cmake==3.16.3
 
 # C:\Users\Hello\Desktop\Drowsiness-Detection-master\Drowsiness-Detection-master\index.py: 45,46
 Pillow == 8.0.1
@@ -25,7 +26,7 @@ numpy == 1.19.3
 
 # C:\Users\Hello\Desktop\Drowsiness-Detection-master\Drowsiness-Detection-master\drowsiness_detection.py: 15
 # C:\Users\Hello\Desktop\Drowsiness-Detection-master\Drowsiness-Detection-master\index.py: 38
-opencv_python == 4.4.0.44
+opencv_python == 4.2.0.32
 
 # C:\Users\Hello\Desktop\Drowsiness-Detection-master\Drowsiness-Detection-master\drowsiness_detection.py: 21
 pandas == 1.1.4
