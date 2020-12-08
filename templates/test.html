@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="static/assets/main.css">
+    </head>
+    <body>
+        <form class="form" action="/analyze" method="POST" >
+            <h2>TOCSIN</h2>
+            <label>System State</label>
+            <select  name="service">
+                <option>Hibernate Mode</option>
+                <option>Shut Down Mode</option>
+              </select>
+              <Br><Br>
+            <label>Camera Frequency (in minutes)</label>
+            <input type="number" name="CF" required></input></p>
+            <label>User Minimum Inactive (in minutes)</label>
+            <input type="number" name="UMI" required></input></p>
+            <label>Allow Sleep (Counter) (in minutes)</label>
+            <input type="number" name="ASC" required></input></p>
+            <label>Folder Path</label>
+            <input type="text" name="FP"></input></p>
+            <button>Submit</button>
+         
+          </form>
+    </body>
+</html>
